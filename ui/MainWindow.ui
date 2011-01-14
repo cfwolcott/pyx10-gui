@@ -192,31 +192,31 @@
          <set>Qt::AlignCenter</set>
         </property>
        </widget>
-       <widget class="QWidget" name="layoutWidget">
+       <widget class="QPushButton" name="pushButton_On">
         <property name="geometry">
          <rect>
-          <x>10</x>
-          <y>250</y>
-          <width>178</width>
-          <height>29</height>
+          <x>150</x>
+          <y>160</y>
+          <width>81</width>
+          <height>27</height>
          </rect>
         </property>
-        <layout class="QHBoxLayout" name="horizontalLayout">
-         <item>
-          <widget class="QPushButton" name="pushButton_Off">
-           <property name="text">
-            <string>OFF</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QPushButton" name="pushButton_On">
-           <property name="text">
-            <string>ON</string>
-           </property>
-          </widget>
-         </item>
-        </layout>
+        <property name="text">
+         <string>ON</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_Off">
+        <property name="geometry">
+         <rect>
+          <x>150</x>
+          <y>190</y>
+          <width>81</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>OFF</string>
+        </property>
        </widget>
       </widget>
       <widget class="QWidget" name="tab_2">
