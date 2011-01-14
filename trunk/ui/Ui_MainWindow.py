@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file '/home/charlie/Projects/x10 gui/ui/MainWindow.ui'
+# Form implementation generated from reading ui file '/home/charlie/Projects/pyx10-gui/ui/MainWindow.ui'
 #
-# Created: Tue Jan 11 17:20:32 2011
+# Created: Thu Jan 13 22:44:48 2011
 #      by: PyQt4 UI code generator 4.7.3
 #
 # WARNING! All changes made in this file will be lost!
@@ -81,17 +81,12 @@ class Ui_MainWindow(object):
         self.label_HouseCode.setFont(font)
         self.label_HouseCode.setAlignment(QtCore.Qt.AlignCenter)
         self.label_HouseCode.setObjectName("label_HouseCode")
-        self.layoutWidget = QtGui.QWidget(self.tab)
-        self.layoutWidget.setGeometry(QtCore.QRect(10, 250, 178, 29))
-        self.layoutWidget.setObjectName("layoutWidget")
-        self.horizontalLayout = QtGui.QHBoxLayout(self.layoutWidget)
-        self.horizontalLayout.setObjectName("horizontalLayout")
-        self.pushButton_Off = QtGui.QPushButton(self.layoutWidget)
-        self.pushButton_Off.setObjectName("pushButton_Off")
-        self.horizontalLayout.addWidget(self.pushButton_Off)
-        self.pushButton_On = QtGui.QPushButton(self.layoutWidget)
+        self.pushButton_On = QtGui.QPushButton(self.tab)
+        self.pushButton_On.setGeometry(QtCore.QRect(150, 160, 81, 27))
         self.pushButton_On.setObjectName("pushButton_On")
-        self.horizontalLayout.addWidget(self.pushButton_On)
+        self.pushButton_Off = QtGui.QPushButton(self.tab)
+        self.pushButton_Off.setGeometry(QtCore.QRect(150, 190, 81, 27))
+        self.pushButton_Off.setObjectName("pushButton_Off")
         self.tabWidget.addTab(self.tab, "")
         self.tab_2 = QtGui.QWidget()
         self.tab_2.setObjectName("tab_2")
@@ -137,8 +132,8 @@ class Ui_MainWindow(object):
         self.label_UnitCode.setText(QtGui.QApplication.translate("MainWindow", "1", None, QtGui.QApplication.UnicodeUTF8))
         self.label_5.setText(QtGui.QApplication.translate("MainWindow", "Unit Code", None, QtGui.QApplication.UnicodeUTF8))
         self.label_HouseCode.setText(QtGui.QApplication.translate("MainWindow", "A", None, QtGui.QApplication.UnicodeUTF8))
-        self.pushButton_Off.setText(QtGui.QApplication.translate("MainWindow", "OFF", None, QtGui.QApplication.UnicodeUTF8))
         self.pushButton_On.setText(QtGui.QApplication.translate("MainWindow", "ON", None, QtGui.QApplication.UnicodeUTF8))
+        self.pushButton_Off.setText(QtGui.QApplication.translate("MainWindow", "OFF", None, QtGui.QApplication.UnicodeUTF8))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), QtGui.QApplication.translate("MainWindow", "X10 Controls", None, QtGui.QApplication.UnicodeUTF8))
         self.pushButton_SendManualCmd.setText(QtGui.QApplication.translate("MainWindow", "Send", None, QtGui.QApplication.UnicodeUTF8))
         self.pushButton_Clear.setText(QtGui.QApplication.translate("MainWindow", "Clear", None, QtGui.QApplication.UnicodeUTF8))
